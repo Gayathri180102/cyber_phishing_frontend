@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="nav-right">
+            <a href="#">Home</a>
+            <a href="#detection-section">Detect</a>
+        </div>
+    </div>
+    <div class="introduction">
+        <div class="intro-text">
+            <h1>Welcome to Phishing Email Detection</h1>
+            <p>Our tool offers a comprehensive solution to identify and prevent phishing attacks effectively.</p>
+            <button onclick="document.getElementById('detection-section').scrollIntoView({ behavior: 'smooth' });">Detect</button>
+        </div>
+        <div class="intro-image">
+            <img src="intropic.png" alt="Phishing Detection" />
+        </div>
+    </div>
+    <div id="detection-section" class="detection-section">
+        <h2>Enter Email Details</h2>
+        <form>
+            <label for="sender-email">Sender's Email:</label>
+            <input type="email" id="sender-email" name="sender-email" required><br>
+            <label for="email-subject">Email Subject:</label>
+            <input type="text" id="email-subject" name="email-subject" required><br>
+            <label for="email-body">Email Body:</label>
+            <textarea id="email-body" name="email-body" rows="4" required></textarea><br>
+            <button type="submit">Detect Phishing</button>
+            <!-- <button type="button">Translate</button> -->
+        </form>
+    </div>
+</body>
+</html>

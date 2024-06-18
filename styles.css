@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-bar .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.top-bar .nav-right a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.introduction {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+    background-color: #a7d2ff; /* Blue background color */
+    color: rgb(0, 0, 0); /* Adjust text color for better contrast with background */
+}
+
+.intro-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.intro-text h1 {
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    margin-bottom: 20px;
+}
+
+.intro-text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #0056b3; /* Slightly darker blue for the button */
+    color: white;
+    border-radius: 12px; /* More rounded corners */
+}
+
+.intro-text button:hover {
+    background-color: #003f7f; /* Even darker blue on hover */
+}
+
+.intro-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.detection-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.detection-section h2 {
+    margin-bottom: 20px;
+}
+
+.detection-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detection-section form label {
+    margin: 10px 0 5px;
+}
+
+.detection-section form input, .detection-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.detection-section form button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #0056b3; /* Slightly darker blue for the button */
+    color: white;
+    border-radius: 12px; /* More rounded corners */
+}
+
+.detection-section form button:hover {
+    background-color: #003f7f; /* Even darker blue on hover */
+}
